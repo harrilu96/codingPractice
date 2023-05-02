@@ -19,5 +19,9 @@ public class Main {
         assertEquals(5, mapsum.sum("arterial"));
         assertEquals(12, mapsum.sum("art"));
 
+        mapsum.insert("arte", 11);
+
+        assertEquals(23, mapsum.sum("art"));
+
     }
 }
