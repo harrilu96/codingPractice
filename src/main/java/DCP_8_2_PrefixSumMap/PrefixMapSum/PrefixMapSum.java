@@ -61,7 +61,7 @@ public class PrefixMapSum {
         return dfsSum(nextNode);
     }
 
-    public Integer dfsSum(Node node) {
+    private Integer dfsSum(Node node) {
 
         Integer sum = 0;
         sum += (node.getValue() == null ? 0 : node.getValue());
