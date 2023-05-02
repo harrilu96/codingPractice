@@ -1,11 +1,13 @@
-import DCP_8_2_PrefixSumMap.PrefixMapSum.PrefixMapSum;
+import org.junit.jupiter.api.Test;
+import DCP_8_2_PrefixSumMap.PrefixMapSum;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Main {
-    public static void main(String[] args) {
 
-        // DCP8.2 Prefix Sum Map Test
+public class DCP_8_2_PrefixSumMap {
+
+    @Test
+    public void Test() {
         PrefixMapSum mapsum = new PrefixMapSum();
 
         mapsum.insert("colander", 1);
@@ -22,6 +24,5 @@ public class Main {
         mapsum.insert("arte", 11);
 
         assertEquals(23, mapsum.sum("art"));
-
     }
 }

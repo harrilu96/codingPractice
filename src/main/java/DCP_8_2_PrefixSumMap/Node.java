@@ -1,4 +1,4 @@
-package DCP_8_2_PrefixSumMap.PrefixMapSum;
+package DCP_8_2_PrefixSumMap;
 
 import java.util.HashMap;
 import java.util.Map;
