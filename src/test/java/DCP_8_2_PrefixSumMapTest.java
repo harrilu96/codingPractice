@@ -4,7 +4,7 @@ import DCP_8_2_PrefixSumMap.PrefixMapSum;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class DCP_8_2_PrefixSumMap {
+public class DCP_8_2_PrefixSumMapTest {
 
     @Test
     public void Test() {
