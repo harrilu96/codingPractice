@@ -33,7 +33,7 @@ public class PrintZigZag {
             for (Character character : charArray) {
                 builder.append(character == null ? " " : character);
             }
-            System.out.println(builder.toString());
+            System.out.println(builder);
         }
     }
 }
